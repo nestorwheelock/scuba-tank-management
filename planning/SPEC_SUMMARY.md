@@ -31,37 +31,43 @@
   - ✅ Audit logging
 - **Success**: Zero paper tickets, <2 min order processing
 
-### EPOCH 2: Customer Engagement - **RECOMMENDED**
-- **Estimate**: 20 hours (4-6 weeks)
-- **Investment**: ~$900
+### EPOCH 2: Customer Engagement + Scheduling - **RECOMMENDED**
+- **Estimate**: 23 hours (4-6 weeks)
+- **Investment**: ~$950
 - **Delivers**:
   - ✅ Customer portal (self-service)
   - ✅ Online ordering
-  - ✅ Email/SMS notifications
+  - ✅ **Advance order scheduling** (date/time picker)
+  - ✅ Email/SMS notifications (with reminders)
   - ✅ Visual inspections & hydro testing
   - ✅ Inspector certification tracking
-- **Success**: 50% self-service orders, 40% fewer calls
+- **Success**: 50% self-service orders, 20% use scheduling, 40% fewer calls
 
-### EPOCH 3: Logistics & Compliance - **RECOMMENDED**
-- **Estimate**: 20 hours (4-6 weeks)
-- **Investment**: ~$1,000
+### EPOCH 3: Logistics & Compliance + Time Slots - **RECOMMENDED**
+- **Estimate**: 24 hours (4-6 weeks)
+- **Investment**: ~$1,050
 - **Delivers**:
-  - ✅ Delivery scheduling & route batching
+  - ✅ **Delivery scheduling with time slots**
+  - ✅ **Delivery schedule view** (list/simple calendar)
+  - ✅ Route batching (30-tank capacity)
   - ✅ Mobile driver interface (PWA)
   - ✅ Gas blend logging (air, 32% nitrox)
   - ✅ Equipment maintenance tracking
   - ✅ Compliance reports
-- **Success**: 90% deliveries via system, audit-ready compliance
+- **Success**: 90% deliveries via system, organized by time slot, audit-ready
 
-### EPOCH 4: Financial Automation - **OPTIONAL**
-- **Estimate**: 15-18 hours (3-4 weeks)
-- **Investment**: ~$700
+### EPOCH 4: Financial Automation + Calendar - **OPTIONAL**
+- **Estimate**: 23 hours (3-5 weeks)
+- **Investment**: ~$850
 - **Delivers**:
   - ✅ Online payments (Stripe)
   - ✅ Automated invoicing
   - ✅ Payment reminders
   - ✅ Analytics dashboard
-- **Success**: 60% online payments, 70% faster collection
+  - ✅ **Full visual calendar** (month/week/day views)
+  - ✅ **Multi-event calendar** (orders, deliveries, maintenance)
+  - ✅ **Google Calendar sync**
+- **Success**: 60% online payments, 70% faster collection, calendar used daily
 
 ---
 
@@ -71,14 +77,14 @@
 - Validate concept with MVP
 - Decide on EPOCH 2 after real-world testing
 
-**Recommended**: EPOCHS 1-3 ($2,700)
+**Recommended**: EPOCHS 1-3 ($2,800)
 - Complete operational system
-- Customer portal + delivery + compliance
+- Customer portal + scheduling + delivery time slots + compliance
 - Production-ready without payments
 
-**Full System**: EPOCHS 1-4 ($3,400)
-- Includes online payments and analytics
-- Fully automated operations
+**Full System**: EPOCHS 1-4 ($3,650)
+- Includes online payments, analytics, and full visual calendar
+- Fully automated operations with comprehensive scheduling
 
 ---
 
@@ -248,8 +254,13 @@
 - **Client Saves**: $3,200 (80% discount)
 
 ### Multi-Epoch Pricing
-- **EPOCHS 1-3**: $2,700 (save $10,800)
-- **EPOCHS 1-4**: $3,400 (save $13,600)
+- **EPOCHS 1-3**: $2,800 (save $11,200)
+- **EPOCHS 1-4**: $3,650 (save $14,600)
+
+### Calendar Feature Pricing
+- **EPOCH 2**: Advance scheduling (+$50) - Simple date/time picker
+- **EPOCH 3**: Delivery time slots (+$50) - Time slot selection
+- **EPOCH 4**: Full visual calendar (+$150) - Month/week/day views with all events
 
 ### What's Included
 - ✅ Production-ready code

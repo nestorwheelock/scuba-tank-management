@@ -39,44 +39,50 @@ We're building this in **3-4 incremental releases**, each delivering standalone 
 
 **Value**: Eliminates paper tickets, organizes operations, zero missed orders
 
-### 🎯 EPOCH 2: Customer Engagement
-**Estimate**: 20 hours | **Timeline**: 4-6 weeks | **Investment**: ~$900
+### 🎯 EPOCH 2: Customer Engagement + Scheduling
+**Estimate**: 23 hours | **Timeline**: 4-6 weeks | **Investment**: ~$950
 
 **Delivers:**
 - Customer self-service portal
 - Online order placement
-- Email/SMS notifications
+- **Advance order scheduling** (schedule for future date/time)
+- Email/SMS notifications (with scheduled order reminders)
 - Visual inspections & hydro testing
 - Inspector certification tracking
 
-**Value**: Reduces customer service calls 40%, enables self-service
+**Value**: Reduces customer service calls 40%, enables self-service + scheduling
 
-### 🎯 EPOCH 3: Logistics & Compliance
-**Estimate**: 20 hours | **Timeline**: 4-6 weeks | **Investment**: ~$1,000
+### 🎯 EPOCH 3: Logistics & Compliance + Time Slots
+**Estimate**: 24 hours | **Timeline**: 4-6 weeks | **Investment**: ~$1,050
 
 **Delivers:**
-- Delivery scheduling & route batching
+- **Delivery scheduling with time slots** (morning, afternoon, evening)
+- **Delivery schedule view** (organized by date and time)
+- Route batching (30-tank capacity)
 - Mobile driver interface (PWA)
 - Gas blend logging (air, 32% nitrox)
 - Equipment maintenance tracking (compressor, filters)
 - Compliance reports
 
-**Value**: Streamlines deliveries, ensures compliance, prevents equipment failures
+**Value**: Streamlines deliveries with professional scheduling, ensures compliance
 
-### 🎯 EPOCH 4: Financial Automation (Optional)
-**Estimate**: 15-18 hours | **Timeline**: 3-4 weeks | **Investment**: ~$700
+### 🎯 EPOCH 4: Financial Automation + Calendar (Optional)
+**Estimate**: 23 hours | **Timeline**: 3-5 weeks | **Investment**: ~$850
 
 **Delivers:**
 - Online payment processing (Stripe)
 - Automated invoicing
 - Payment reminders
 - Analytics dashboard
+- **Full visual calendar dashboard** (month/week/day views)
+- **Multi-event calendar** (orders, deliveries, maintenance in one view)
+- **Google Calendar integration** (export/sync)
 
-**Value**: Faster payments, reduced collection time, data-driven decisions
+**Value**: Faster payments, reduced collection time, data-driven decisions, comprehensive scheduling
 
-**Total Investment (All 4 Epochs)**: ~$3,400
-**Traditional Development Cost**: ~$17,000
-**Your Savings**: ~$13,600 (80% discount via AI-assisted development)
+**Total Investment (All 4 Epochs)**: ~$3,650
+**Traditional Development Cost**: ~$18,250
+**Your Savings**: ~$14,600 (80% discount via AI-assisted development)
 
 ---
 

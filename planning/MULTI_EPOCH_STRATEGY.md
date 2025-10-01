@@ -80,13 +80,14 @@
 **Duration**: 4-6 weeks
 **Goal**: Reduce customer service calls with self-service portal
 
-### Scope: Customer Portal + Notifications + Inspections
+### Scope: Customer Portal + Notifications + Inspections + Scheduling
 
 **Delivers:**
 - ✅ Customer portal (order, track, history)
 - ✅ Customer authentication/registration
 - ✅ Self-service order placement
-- ✅ Email/SMS notifications (order confirmation)
+- ✅ **Advance order scheduling** (schedule for future date/time)
+- ✅ Email/SMS notifications (order confirmation, reminders)
 - ✅ Tank status visibility for customers
 - ✅ Visual inspection service (PSI/PCI tracking)
 - ✅ Hydrostatic testing service
@@ -95,30 +96,35 @@
 
 **User Stories (EPOCH 2):**
 - S-006: Customer Portal & Registration
-- S-007: Self-Service Order Placement
-- S-008: Order Confirmation Notifications
-- S-009: Visual Inspection Service
-- S-010: Hydrostatic Testing Service
-- S-011: Certification Tracking & Alerts
-- S-012: Customer Tank Status View
+- S-007: **Advance Order Scheduling** (NEW - 3 hours)
+- S-008: Self-Service Order Placement
+- S-009: Order Confirmation Notifications
+- S-010: Visual Inspection Service
+- S-011: Hydrostatic Testing Service
+- S-012: Certification Tracking & Alerts
+- S-013: Customer Tank Status View
 
 ### Success Criteria
 - 50% of customers register within 30 days
 - 30% of orders placed via portal (vs phone/walk-in)
+- **20% of portal orders use advance scheduling**
 - Customer service calls reduced by 40%
 - Automated certification alerts catch 100% of expirations
+- **Zero missed scheduled orders during test period**
 
 ### What's NOT in EPOCH 2
-- ❌ Delivery scheduling (still manual)
-- ❌ Equipment maintenance tracking
-- ❌ Online payments (invoice only)
+- ❌ Full visual calendar dashboard (list view only)
+- ❌ Delivery scheduling (EPOCH 3)
+- ❌ Equipment maintenance tracking (EPOCH 3)
+- ❌ Online payments (EPOCH 4)
 - ❌ Gas blend logging
 - ❌ Mobile driver app
 
-### Pricing: ~$900
-- Human-equivalent: 90 hours @ $50/hr = $4,500
+### Pricing: ~$950
+- Human-equivalent: 95 hours @ $50/hr = $4,750
 - AI discount: 80%
-- Client pays: $900
+- Client pays: $950
+- **Note**: +3 hours for advance scheduling feature
 
 ### Decision Gate
 **After EPOCH 2:**
@@ -136,7 +142,8 @@
 ### Scope: Delivery Management + Gas Logging + Equipment Tracking
 
 **Delivers:**
-- ✅ Delivery scheduling (1-day advance notice)
+- ✅ **Delivery scheduling with time slots** (1-day advance notice)
+- ✅ **Delivery calendar view** (list or simple calendar of scheduled deliveries)
 - ✅ Route batching (30-tank capacity)
 - ✅ Pier delivery, route delivery, custom delivery
 - ✅ Mobile driver interface (PWA)
@@ -148,29 +155,32 @@
 - ✅ Compliance reports
 
 **User Stories (EPOCH 3):**
-- S-013: Delivery Scheduling System
-- S-014: Route Batching & Optimization
-- S-015: Mobile Driver Interface
-- S-016: Delivery Confirmation
-- S-017: Gas Blend Logging
-- S-018: Equipment Maintenance Tracking
-- S-019: Compliance Reporting
+- S-014: **Delivery Scheduling with Time Slots** (UPDATED - 4 hours)
+- S-015: Route Batching & Optimization
+- S-016: Mobile Driver Interface
+- S-017: Delivery Confirmation
+- S-018: Gas Blend Logging
+- S-019: Equipment Maintenance Tracking
+- S-020: Compliance Reporting
 
 ### Success Criteria
 - 90% of deliveries scheduled via system
+- **Drivers see daily delivery schedule organized by time slot**
 - Drivers complete routes without paper manifests
 - Zero compliance documentation gaps
 - Compressor maintenance alerts 100% accurate
 
 ### What's NOT in EPOCH 3
+- ❌ Full visual calendar dashboard (simple list/date view only)
 - ❌ Online payments (still manual/invoice)
-- ❌ Advanced route optimization AI
-- ❌ Delivery fee automation
+- ❌ Advanced route optimization AI (manual batching)
+- ❌ Automatic delivery fee calculation (EPOCH 4)
 
-### Pricing: ~$1,000
-- Human-equivalent: 100 hours @ $50/hr = $5,000
+### Pricing: ~$1,050
+- Human-equivalent: 105 hours @ $50/hr = $5,250
 - AI discount: 80%
-- Client pays: $1,000
+- Client pays: $1,050
+- **Note**: +4 hours for delivery time slot scheduling
 
 ### Decision Gate
 **After EPOCH 3:**
@@ -181,11 +191,11 @@
 
 ---
 
-## 🎯 EPOCH 4: FINANCIAL AUTOMATION (OPTIONAL)
-**Duration**: 3-4 weeks
-**Goal**: Automate payments and invoicing
+## 🎯 EPOCH 4: FINANCIAL AUTOMATION + CALENDAR (OPTIONAL)
+**Duration**: 3-5 weeks
+**Goal**: Automate payments, invoicing, and provide visual calendar dashboard
 
-### Scope: Online Payments + Advanced Pricing + Analytics
+### Scope: Online Payments + Advanced Pricing + Analytics + Calendar
 
 **Delivers:**
 - ✅ Online payment processing (Stripe)
@@ -195,24 +205,31 @@
 - ✅ Multi-payment methods
 - ✅ Analytics dashboard (revenue, utilization, trends)
 - ✅ Advanced reporting
+- ✅ **Full visual calendar dashboard** (month/week/day views)
+- ✅ **Multi-event calendar** (orders, deliveries, maintenance in one view)
+- ✅ **Google Calendar integration** (export/sync)
 
 **User Stories (EPOCH 4):**
-- S-020: Online Payment Processing
-- S-021: Automated Invoicing
-- S-022: Payment Reminder System
-- S-023: Dynamic Pricing Engine
-- S-024: Analytics Dashboard
+- S-021: Online Payment Processing
+- S-022: Automated Invoicing
+- S-023: Payment Reminder System
+- S-024: Dynamic Pricing Engine
+- S-025: Analytics Dashboard
+- S-026: **Visual Calendar Dashboard** (NEW - 8 hours)
 
 ### Success Criteria
 - 60% of customers pay online
 - Payment collection time reduced 70%
 - Automated invoices sent within 5 minutes
 - Dashboard provides actionable insights
+- **Calendar provides at-a-glance view of all scheduled activities**
+- **Staff use calendar for daily planning**
 
-### Pricing: ~$700
-- Human-equivalent: 70 hours @ $50/hr = $3,500
+### Pricing: ~$850
+- Human-equivalent: 85 hours @ $50/hr = $4,250
 - AI discount: 80%
-- Client pays: $700
+- Client pays: $850
+- **Note**: +8 hours for visual calendar dashboard
 
 ### Decision Gate
 **After EPOCH 4:**
@@ -226,19 +243,24 @@
 ## TOTAL INVESTMENT ACROSS EPOCHS
 
 **Option 1: Core System (EPOCHS 1-3)**
-- Total: $2,700
+- Total: $2,800
 - Timeline: 12-18 weeks
-- Delivers: Fully operational system without online payments
+- Delivers: Fully operational system with scheduling and delivery time slots (no online payments)
 
 **Option 2: Complete System (EPOCHS 1-4)**
-- Total: $3,400
-- Timeline: 15-22 weeks
-- Delivers: Fully automated system with payments
+- Total: $3,650
+- Timeline: 15-24 weeks
+- Delivers: Fully automated system with payments, analytics, and visual calendar dashboard
 
 **Comparison to Traditional Development:**
-- Traditional Cost: $17,000 (340 hours @ $50/hr)
-- AI-Assisted Cost: $3,400
-- **Client Saves: $13,600 (80% discount)**
+- Traditional Cost: $18,250 (365 hours @ $50/hr)
+- AI-Assisted Cost: $3,650
+- **Client Saves: $14,600 (80% discount)**
+
+**Calendar Features Breakdown:**
+- EPOCH 2: Simple scheduling (+$50) - Date/time picker for advance orders
+- EPOCH 3: Delivery time slots (+$50) - Time slot selection for deliveries
+- EPOCH 4: Full calendar dashboard (+$150) - Visual month/week/day calendar with all events
 
 ---
 
